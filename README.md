@@ -1,27 +1,27 @@
-## E-commerce Data Analysis with SQL
-### Overview
+E-commerce Data Analysis with SQL
+Overview
 This repository contains a set of SQL queries designed to extract valuable insights from an e-commerce dataset. The analysis focuses on understanding customer behavior, sales trends, product performance, and other key metrics to support business decision-making.
 
-# Dataset
+Dataset
 The analysis is performed on a dataset assumed to be loaded into a PostgreSQL database table named e_commerce_data1. The dataset contains various columns related to customer information, product details, purchase transactions, and return status.
 
 Assumed Date Format for 'Purchase Date': DD-MM-YY (e.g., 03-05-23 for May 3rd, 2023).
 
 Tools Used
-SQL: PostgreSQL.
-PgAdmin: For database management and query execution.
+SQL: PostgreSQL dialect
 
-## Analysis Questions & SQL Queries
-**Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.**
+PgAdmin: For database management and query execution
 
-**1. Retrieve all data from the table (for initial exploration)**
+Analysis Questions & SQL Queries
+Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
 
+1. Retrieve all data from the table (for initial exploration)
 SELECT * FROM e_commerce_data1;
 
-**2. How many unique customers are there in the dataset?**
+2. How many unique customers are there in the dataset?
 This query counts the total number of distinct customer IDs, providing an understanding of the customer base size.
 
-SELECT COUNT(DISTINCT "Customer ID") AS "Unique Customers"  
+SELECT COUNT(DISTINCT "Customer ID") AS "Unique Customers"
 FROM e_commerce_data1;
 
 3. What is the total purchase amount across all transactions?
@@ -132,7 +132,9 @@ FROM e_commerce_data1
 GROUP BY "Purchase Year"
 ORDER BY "Total Purchase Amount" DESC;
 
-## How to Use
-* Load Data: Ensure your E-commerce Data 1.csv file is loaded into a PostgreSQL table named e_commerce_data1.
-* Connect: Use PgAdmin or your preferred SQL client to connect to your PostgreSQL database.
-* Execute Queries: Copy and paste the desired SQL queries into your client's query editor and execute them.
+How to Use
+Load Data: Ensure your E-commerce Data 1.csv file is loaded into a PostgreSQL table named e_commerce_data1.
+
+Connect: Use PgAdmin or your preferred SQL client to connect to your PostgreSQL database.
+
+Execute Queries: Copy and paste the desired SQL queries into your client's query editor and execute them.
