@@ -2,6 +2,15 @@
 ### Overview
 This repository contains a set of SQL queries designed to extract valuable insights from an e-commerce dataset. The analysis focuses on understanding customer behavior, sales trends, product performance, and other key metrics to support business decision-making.
 
+**Example with your SQL queries:**
+
+```markdown
+```sql
+SELECT "Returns", COUNT(DISTINCT "Customer ID") AS "Number of Customers"
+FROM e_commerce_data1
+WHERE "Returns" = '1'
+GROUP BY "Returns";
+
 # Dataset
 The analysis is performed on a dataset assumed to be loaded into a PostgreSQL database table named e_commerce_data1. The dataset contains various columns related to customer information, product details, purchase transactions, and return status.
 
