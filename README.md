@@ -9,6 +9,7 @@ Date Format for 'Purchase Date': DD-MM-YY.
 
 ## Tools Used
 SQL: PostgreSQL.
+
 PgAdmin: For database management and query execution.
 
 ## How to Use
