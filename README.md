@@ -3,12 +3,13 @@
 This repository contains a set of SQL queries designed to extract valuable insights from an e-commerce dataset. The analysis focuses on understanding customer behavior, sales trends, product performance, and other key metrics to support business decision-making.
 
 ## Dataset
-The analysis is performed on a dataset assumed to be loaded into a PostgreSQL database table named e_commerce_data1. The dataset contains various columns related to customer information, product details, purchase transactions, and return status.
-Assumed Date Format for 'Purchase Date': DD-MM-YY (e.g., 03-05-23 for May 3rd, 2023).
+The analysis is performed on a dataset loaded into a PostgreSQL database table named e_commerce_data1. The dataset contains various columns related to customer information, product details, purchase transactions, and return status.
+
+Date Format for 'Purchase Date': DD-MM-YY.
 
 ## Tools Used
-SQL: PostgreSQL dialect
-PgAdmin: For database management and query execution
+SQL: PostgreSQL.
+PgAdmin: For database management and query execution.
 
 ## How to Use
 Load Data: Ensure your E-commerce Data 1.csv file is loaded into a PostgreSQL table named e_commerce_data1.
