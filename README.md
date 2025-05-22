@@ -52,6 +52,7 @@ This query identifies the customers who have spent the most money, based on thei
 -- Count the number of purchases made by customers based on their gender.
 This query sums the quantity of items purchased, grouped by the customer's gender.
 
+```sql
 -- Which gender purchased the most items?
 This query identifies the gender group that purchased the highest total quantity of items.
 
