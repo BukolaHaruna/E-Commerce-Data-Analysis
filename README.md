@@ -15,6 +15,7 @@ PgAdmin: For database management and query execution.
 **Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.**
 
 **1. Retrieve all data from the table (for initial exploration)**
+
 SELECT * FROM e_commerce_data1;
 
 **2. How many unique customers are there in the dataset?**
