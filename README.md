@@ -16,8 +16,8 @@ Connect: Use PgAdmin or your preferred SQL client to connect to your PostgreSQL 
 Execute Queries: Copy and paste the desired SQL queries into your client's query editor and execute them.
 
 ## Analysis Questions & SQL Queries
-```Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
-
+Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
+```
 1. Retrieve all data from the table (for initial exploration)
 SELECT * FROM e_commerce_data1;
 
