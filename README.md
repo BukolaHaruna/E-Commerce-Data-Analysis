@@ -20,7 +20,7 @@ Below are the SQL queries used to answer specific business questions. Each query
 2. How many unique customers are there in the dataset?
 This query counts the total number of distinct customer IDs, providing an understanding of the customer base size.
 
-`SELECT COUNT(DISTINCT "Customer ID") AS "Unique Customers"<br>
+`SELECT COUNT(DISTINCT "Customer ID") AS "Unique Customers"  
 FROM e_commerce_data1;`
 
 3. What is the total purchase amount across all transactions?
