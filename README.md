@@ -12,13 +12,12 @@ SQL: PostgreSQL.
 PgAdmin: For database management and query execution.
 
 ## Analysis Questions & SQL Queries
+**Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.**
 ```
-Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
-
-1. Retrieve all data from the table (for initial exploration)
+**1. Retrieve all data from the table (for initial exploration)**
 SELECT * FROM e_commerce_data1;
 
-2. How many unique customers are there in the dataset?
+**2. How many unique customers are there in the dataset?**
 This query counts the total number of distinct customer IDs, providing an understanding of the customer base size.
 
 SELECT COUNT(DISTINCT "Customer ID") AS "Unique Customers"  
