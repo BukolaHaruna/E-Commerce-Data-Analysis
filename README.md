@@ -17,7 +17,7 @@ Execute Queries: Copy and paste the desired SQL queries into your client's query
 
 ## Analysis Questions & SQL Queries
 Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
-```
+
 1. Retrieve all data from the table (for initial exploration)
 SELECT * FROM e_commerce_data1;
 
@@ -134,3 +134,12 @@ SELECT SUBSTRING("Purchase Date", 7, 2) AS "Purchase Year", SUM("Total Purchase 
 FROM e_commerce_data1
 GROUP BY "Purchase Year"
 ORDER BY "Total Purchase Amount" DESC;
+
+**Example with your SQL queries:**
+
+```markdown
+```sql
+SELECT "Returns", COUNT(DISTINCT "Customer ID") AS "Number of Customers"
+FROM e_commerce_data1
+WHERE "Returns" = '1'
+GROUP BY "Returns";
