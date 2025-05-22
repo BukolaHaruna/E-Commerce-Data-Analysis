@@ -96,10 +96,10 @@ GROUP BY "Customer ID", "Customer Name"
 ORDER BY "Total Purchase Amount" DESC
 LIMIT 5;
 
-```sql
 -- Count the number of purchases made by customers based on their gender.
 This query sums the quantity of items purchased, grouped by the customer's gender.
-
+```
+```
 SELECT "Gender", SUM("Quantity") AS "Total Quantity"
 FROM e_commerce_data1
 GROUP BY "Gender";
