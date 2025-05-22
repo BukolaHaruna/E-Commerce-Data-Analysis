@@ -2,15 +2,6 @@
 ### Overview
 This repository contains a set of SQL queries designed to extract valuable insights from an e-commerce dataset. The analysis focuses on understanding customer behavior, sales trends, product performance, and other key metrics to support business decision-making.
 
-**Example with your SQL queries:**
-
-```markdown
-```sql
-SELECT "Returns", COUNT(DISTINCT "Customer ID") AS "Number of Customers"
-FROM e_commerce_data1
-WHERE "Returns" = '1'
-GROUP BY "Returns";
-
 # Dataset
 The analysis is performed on a dataset assumed to be loaded into a PostgreSQL database table named e_commerce_data1. The dataset contains various columns related to customer information, product details, purchase transactions, and return status.
 
@@ -21,7 +12,7 @@ SQL: PostgreSQL.
 PgAdmin: For database management and query execution.
 
 ## Analysis Questions & SQL Queries
-Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
+``` Below are the SQL queries used to answer specific business questions. Each query is accompanied by a brief description of its purpose.
 
 1. Retrieve all data from the table (for initial exploration)
 `SELECT * FROM e_commerce_data1;`
@@ -138,7 +129,7 @@ This query calculates the total purchase amount for every year present in the da
 `SELECT SUBSTRING("Purchase Date", 7, 2) AS "Purchase Year", SUM("Total Purchase Amount") AS "Total Purchase Amount"
 FROM e_commerce_data1
 GROUP BY "Purchase Year"
-ORDER BY "Total Purchase Amount" DESC;`
+ORDER BY "Total Purchase Amount" DESC;
 
 ## How to Use
 * Load Data: Ensure your E-commerce Data 1.csv file is loaded into a PostgreSQL table named e_commerce_data1.
