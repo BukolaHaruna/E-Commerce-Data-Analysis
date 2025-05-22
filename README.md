@@ -1,4 +1,4 @@
-### E-commerce Data Analysis with SQL
+## E-commerce Data Analysis with SQL
 # Overview
 This repository contains a set of SQL queries designed to extract valuable insights from an e-commerce dataset. The analysis focuses on understanding customer behavior, sales trends, product performance, and other key metrics to support business decision-making.
 
