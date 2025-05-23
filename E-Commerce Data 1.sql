@@ -1,4 +1,5 @@
- -- select * from e_commerce_data1
+ -- Viewing the data.
+select * from e_commerce_data1
  
  -- How many unique customers are there in the dataset?
  select count(distinct "Customer ID") as "Unique Customers"
