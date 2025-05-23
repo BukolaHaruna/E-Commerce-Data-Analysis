@@ -22,7 +22,7 @@ Below are the SQL queries used to answer specific business questions. Each query
 
 ```sql
 -- How many unique customers are there in the dataset?
-This query counts the total number of distinct customer IDs, providing an understanding of the customer base size.
+This query counts the total number of distinct customer IDs, providing an understanding of the customer size.
 
 -- What is the total purchase amount across all transactions?
 This query calculates the sum of all "Total Purchase Amount" values, giving the overall revenue generated.
@@ -43,10 +43,10 @@ This query identifies the product category with the highest total quantity of pr
 This query counts transactions by payment method and identifies the one with the highest count.
 
 -- How many customers have made returns?
-This query counts the number of unique customers who have a '1' (indicating a return) in the "Returns" column. Note: "Returns" column is treated as TEXT.
+This query counts the number of unique customers who have a '1' (indicating a return) in the "Returns" column.
 
 -- What is the average age of customers who have churned?
-This query calculates the average age of customers where the "Churn" column is marked as '1' (indicating churn). Note: "Churn" column is treated as TEXT.
+This query calculates the average age of customers where the "Churn" column is marked as '1' (indicating churn).
 
 -- Find the top 5 customers with the highest total purchase amount.
 This query identifies the customers who have spent the most money, based on their total purchase amount.
@@ -59,10 +59,10 @@ This query sums the quantity of items purchased, grouped by the customer's gende
 This query identifies the gender group that purchased the highest total quantity of items.
 
 -- How many purchases were made in year 2023?
-This query calculates the total quantity of items purchased in the year '23' (2023), extracting the year from the 'Purchase Date' text column.
+This query calculates the total quantity of items purchased in the year '23' (2023), extracting the year from the 'Purchase Date' column.
 
 -- What was the total purchase amount for each month in 2023?
-This query calculates the total purchase amount for each month within the year '23' (2023), extracting month and year from the 'Purchase Date' text column.
+This query calculates the total purchase amount for each month within the year '23' (2023), extracting month and year from the 'Purchase Date' column.
 
 -- What was the total purchase amount for each year?
-This query calculates the total purchase amount for every year present in the dataset, extracting the year from the 'Purchase Date' text column.
+This query calculates the total purchase amount for every year present in the dataset, extracting the year from the 'Purchase Date' column.
